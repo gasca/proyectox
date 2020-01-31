@@ -1,0 +1,31 @@
+Git
+git --version  // version de git
+
+	
+# Indicar nuestro nombre
+git config --global user.name "Nuestro Nombre"
+ 
+# Indicar nuestro correo electrónico
+git config --global user.email "nuestro@correo.com"
+
+git init //iniciar un repositorio, crear un directorio y dentro de la ruta poner el codigo
+
+
+
+# Para añadir un solo archivo
+git add nombre_del_archivo
+ 
+# Para añadir todo lo que hay en el directorio actual
+git add --all
+
+# o bien
+git add .
+ 	
+git status //ver status
+
+Por último creamos un commit, los commits deben ir siempre con un mensaje el cuál pasamos con el parámetro -m como se muestra a continuación:
+
+git commit -m 'Primer commit'
+
+composer create laravel/laravel proyectox "5.*" crear proyecto
+vendor/bin/phpunit //pruebas
